@@ -17,6 +17,6 @@ for (let i = 0; i < Names.length; i++) {
   cards.innerHTML += `<div class="card">
   <img src="/Assets/Images/Couple${i+1}/card-image.png"/>
   <h3>${Names[i]}</h3>
-  <a href="/Assets/Couples/Couple${i + 1}.html">See More</a>
+  <a href="/Couples/Couple${i + 1}.html">See More</a>
 </div>`;
 }
