@@ -6,7 +6,7 @@ let couple4 = document.getElementById("couple4-images");
 function Images(couple, n) {
   if (couple) {
     for (let j = 1; j <= img_number; j++) {
-      couple.innerHTML += `<div class="card"><img src="/Assets/Images/Couple${n}/${j}.png"/></div>`;
+      couple.innerHTML += `<div class="card"><img src="/Photography-Website/Assets/Images/Couple${n}/${j}.png"/></div>`;
     }
   }
 }
